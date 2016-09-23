@@ -119,7 +119,7 @@ implicitPurchaseLoggingEnabled:(BOOL)implicitPurchaseLoggingEnabled
 
 - (BOOL)useNativeDialogForDialogName:(NSString *)dialogName
 {
-  return @YES;
+  return (BOOL)@YES;
   //return [self _useFeatureWithKey:FBSDKDialogConfigurationFeatureUseNativeFlow dialogName:dialogName];
 }
 
