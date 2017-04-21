@@ -1675,6 +1675,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819043CE1D261A7900B2E437 /* FBSDKShareKit.xcconfig */;
 			buildSettings = {
+				MODULEMAP_FILE = "$(SRCROOT)/FBSDKShareKit/FBSDKShareKit.modulemap";
 			};
 			name = Debug;
 		};
@@ -1682,6 +1683,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819043CE1D261A7900B2E437 /* FBSDKShareKit.xcconfig */;
 			buildSettings = {
+				MODULEMAP_FILE = "$(SRCROOT)/FBSDKShareKit/FBSDKShareKit.modulemap";
 			};
 			name = Release;
 		};
